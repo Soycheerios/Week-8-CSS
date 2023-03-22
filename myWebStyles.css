@@ -1,0 +1,365 @@
+/*Home page style*/
+
+ .homeBody {
+    background-image: url('https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.Home {
+    text-align: center;
+}
+
+.homePage {
+    border-style:dotted;
+    border-width: 5px;
+    border-radius: 3px;
+    border-color: rgb(193, 32, 214);
+    text-align: center;
+    height: 50px;
+    width:200px;
+    margin-left: 600px;
+}
+
+.homeImg {
+    height: 400px;
+    width: 500px;
+}
+    
+.Navigation {
+    margin-left: 600px;
+    margin-bottom: 100px;
+    height: 100px;
+    width: 200px;
+}
+
+
+.homeNavigation:hover {
+    background-color: grey;
+}
+.aboutMeNavi:hover {
+    background-color: grey;
+}
+.myCatsNavi:hover {
+    background-color: grey;
+}
+.contactNavi:hover {
+    background-color: grey;
+}
+
+/*Contact me page style*/
+
+.contactBody {
+        background-image: url('https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?w=2000');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+}
+
+.contactPage {
+    text-align: center;
+}
+
+.contactImg1{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+.contactImg2{
+    width: 400;
+    height: 200;
+    position: absolute;
+    left: 350px;
+    bottom: 430px;
+
+}
+.contactImg3 {
+    width: 300px;
+    height: 400px;
+    top: 60px;
+    left: 50px;
+    position: relative;
+}
+
+.hyperLink {
+    border-style:double;
+    border-width: 10px;
+    border-radius: 100px;
+    border-color: rgb(193, 32, 214);
+    text-align: center;
+    height: 220px;
+    width: 600px;
+    margin-left: 400px;
+}
+.linkImg1:hover{
+    margin-left: 200px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+.linkImg2:hover{
+    margin-left: 200px;
+    height: 50px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+.linkImg3:hover{
+    margin-left: 200px;
+    height: 50px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+.linkImg4:hover {
+    margin-left: 200px;
+    height: 50px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+
+/*About me page style*/
+
+.aboutMe {
+    background-image: url('https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.aboutMeTitle {
+    border-style: double;
+    border-radius: 400px;
+    border-width: 10px;
+    border-color: aqua;
+    border-inline-end-color: blueviolet;
+    border-inline-start-color: blueviolet;
+    width:fit-content;
+    margin-left: 600px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    border-style:solid;  
+}
+
+.myImg {
+    text-align: center;
+}
+
+#aboutMeText {
+    margin-left: 250px;
+    border-style: double;
+    border-color: rgb(255, 202, 127);
+    border-width: 10px;
+    width: fit-content;
+    
+}
+
+#skills {
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.developerSkills {
+    position: relative;
+    left: 300px;
+}
+
+.otherSkills {
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+
+.whatElse{
+    text-align: center;
+}
+
+.moreMe {
+    border-style: ridge;
+    border-width: 8px;
+    border-color: rgb(255, 227, 127);
+}
+
+.meSports {
+    position: relative;
+    margin-left: 200px;
+}
+
+.meFood{
+    position: relative;
+    margin-left: 700px;
+    bottom: 450px;
+    margin-bottom: -450px;
+}
+
+.myCats {
+    text-align: center;
+    border-style:groove;
+    border-width: 8px;
+    border-color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.myCats:hover{
+   
+    background-color: bisque;
+    width: 800px;
+    margin-left: 295px;
+}
+
+/*About my cats page*/
+.aboutCats {
+    background-image: url('https://wallpaperaccess.com/full/32055.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+
+.myCatsTitle {
+    text-align: center;
+}
+
+.catNames {
+    display: inline-block;
+    text-align: left;
+}
+
+.lunaName:hover {
+    background-color: rgba(245, 174, 33, 0.735);
+}
+
+.potatoName:hover{
+    background-color: rgba(245, 174, 33, 0.735);
+}
+
+.catImg1 {
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    border-style: ridge;
+    border-color: pink;
+    border-width: 10px;
+    width: fit-content;
+}
+
+.aboutCatsNavi {
+    width: fit-content;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+
+
+/*Luna's page*/
+
+.pageLuna{
+    background-image: url('https://cdn.shopify.com/s/files/1/0003/2361/6774/files/Hero_1V3.png?v=1674526726&width=3840');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.hiLuna {
+    text-align: center;
+    border-bottom: 8px, solid, purple;
+}
+
+.luna1 {
+    position: relative;
+    left: 150px;
+}
+
+.lunaImg1 {
+    border-style:double;
+    border-color: rgb(233, 94, 198);
+    border-width: 15px;
+    width: fit-content;
+}
+
+.lunaImg2 {
+    border-style:double;
+    border-color: rgb(94, 233, 170);
+    border-width: 15px;
+    width: fit-content;
+}
+
+.lunaPara2 {
+    padding: 8px;
+}
+
+.lunaNavi {
+    width: fit-content;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+
+/*Potato page*/
+
+.potatoPage {
+    background-image: url('https://www.shutterstock.com/image-photo/banner-cat-web-header-template-260nw-1030847524.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.potatoImg1 {
+    text-align: center;
+}
+
+.potato1 {
+    margin-left: 150px;
+}
+
+.potatoImg2 {
+    border-style: double;
+    border-color: rgb(227, 234, 23);
+    border-width: 20px;
+    width: fit-content;
+}
+
+.potatoPara1 {
+    border-style: solid;
+    border-width: 5px;
+    width: fit-content;
+}
+
+.potatoImg3 {
+    border-style: groove;
+    border-width: 20px;
+    border-color: aqua;
+    width: fit-content;
+}
+
+#potatoPara2 {
+    border-style: solid;
+    border-width: 5px;
+    width: fit-content;
+}
+
+.potatoNavi {
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 30px;
+    height: 250px;
+    width: 200px;
+}
